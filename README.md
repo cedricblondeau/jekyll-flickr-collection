@@ -1,11 +1,11 @@
 # Jekyll Flickr Collection Plugin
 Jekyll "generator" plug-in for embedding a Flickr collection (a set of specific photosets).
 
-## Usage:
+## Usage
 Specify the Flickr collection ID and the Flickr user ID in your template.
 The generator will inject an array of photosets as a template variable.
 
-### Example:
+#### Example
 ```html
 ---
 layout: default
@@ -22,7 +22,7 @@ flickr:
 {% endif %}
 ```
 
-## Configuration:
+## Configuration
 _config.yml:
 ```yaml
 flickr:
@@ -30,19 +30,19 @@ flickr:
   shared_secret: xxxxxxxxxxxxxxxx
 ```
 
-## Requirements:
+## Requirements
 
-### Apply for a Flickr API key
+#### Apply for a Flickr API key
 https://www.flickr.com/services/apps/create/apply/
 
-### FlickRaw
+#### FlickRaw
 Flickraw is a library to access flickr api in a simple way.
 ```
 gem install flickraw
 ```
 
-## TODO:
+## TODO
 - Cache support
 
-## Thanks:
+## Thanks!
 - [Integrating Flickr and Jekyll](http://www.marran.com/tech/integrating-flickr-and-jekyll/)
