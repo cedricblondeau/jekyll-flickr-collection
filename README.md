@@ -1,6 +1,8 @@
 # Jekyll Flickr Collection Plugin
 Jekyll "generator" plug-in for embedding a Flickr collection (a set of specific photosets).
 
+Example: http://tenmonthsaroundtheworld.cedricblondeau.com/
+
 ## Usage
 Specify the Flickr collection ID and the Flickr user ID in your template.
 The generator will inject an array of photosets as a template variable.
